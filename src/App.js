@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import TextForm from "./components/TextForm";
 
 // import ReactDOM from "react-dom";
 // import {Routes,Route, Link } from "react-router-dom";
@@ -11,7 +12,10 @@ function App() {
   return (
     <>
       <Navbar title="TextUtils" home="Welcome" />
-      {/* <Navbar/> */}
+      <div className="container my-3">
+        <TextForm/>
+      </div>
+      
     </>
   );
 }
