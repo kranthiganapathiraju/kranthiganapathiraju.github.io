@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import TextForm from "./components/TextForm";
+import About from './components/About'
 
 // import ReactDOM from "react-dom";
 // import {Routes,Route, Link } from "react-router-dom";
@@ -14,6 +15,9 @@ function App() {
       <Navbar title="TextUtils" home="Welcome" />
       <div className="container my-3">
         <TextForm/>
+      </div>
+      <div className="container">
+        <About/>
       </div>
       
     </>
